@@ -1,0 +1,9 @@
+<body style="background-color:pink";>
+<h1>Hello World</h1>
+<p> this is mohan</p>
+<% @posts.each do |post| %>
+<h1><%=link_to post.name,post %></h1>
+<h1><%=post.roll %></h1>
+<% end %>
+<p><%= link_to "Add new student",new_post_path %></p>
+</body>

@@ -1,0 +1,16 @@
+<h3>Add new student</h3>
+<%=form_for @post do |f| %>
+<p>
+   <%= f.label :name %><br />
+   <%= f.text_field :name %>
+
+</p>
+<p>
+<%= f.label :roll %><br />
+<%= f.text_field :roll %>
+</p>
+
+<p>
+<%= f.submit "Add another student" %>
+</p>
+<% end %>
