@@ -1,6 +1,8 @@
-<html>
-<body background="file:///media/Mohan/IMAGES/College/07012011083%20(2).jpg">
-
+<head>
+<style type="text/css">
+body {background-image:url('file:///media/Mohan/IMAGES/College/07012011083%20(2).jpg');}
+</style>
+</head>
 <h1>Hello World</h1>
 <p> this is mohan</p>
 <% @posts.each do |post| %>
@@ -9,4 +11,3 @@
 <% end %>
 <p><%= link_to "Add new student",new_post_path %></p>
 </body>
-<html>
